@@ -1,0 +1,7 @@
+G:\Sourse\Bussiness\obj\Debug\Bussiness.csprojResolveAssemblyReference.cache
+G:\Sourse\Bussiness\bin\Debug\Bussiness.dll
+G:\Sourse\Bussiness\bin\Debug\Bussiness.pdb
+G:\Sourse\Bussiness\bin\Debug\Entity.dll
+G:\Sourse\Bussiness\bin\Debug\Entity.pdb
+G:\Sourse\Bussiness\obj\Debug\Bussiness.dll
+G:\Sourse\Bussiness\obj\Debug\Bussiness.pdb

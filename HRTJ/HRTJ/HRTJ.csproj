@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B472EA64-E52F-4B48-9743-08FD25B347BB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HRTJ</RootNamespace>
+    <AssemblyName>HRTJ</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>J:\怀柔教育\HRTJ\sepup\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://localhost:5568/</InstallUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>SecurityRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>2B7DD49CDA271289BDB50B8461D1C8D87C330647</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>HRTJ_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.Microsoft.Office.Core">
+      <HintPath>..\pubRef\office2003dll\Interop.Microsoft.Office.Core.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.Office">
+      <HintPath>..\pubRef\office2003dll\Interop.Office.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\pubRef\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\pubRef\office2003dll\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\pubRef\office2003dll\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Vbe.Interop, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\pubRef\office2003dll\Microsoft.Vbe.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\pubRef\office2003dll\Office.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\ComBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Base\ComBox.Designer.cs">
+      <DependentUpon>ComBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\Frm_Base.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\Frm_Base.Designer.cs">
+      <DependentUpon>Frm_Base.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\Control.Designer.cs">
+      <DependentUpon>Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\PagerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\PagerControl.Designer.cs">
+      <DependentUpon>PagerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\UserControl_NK1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\UserControl_NK1.Designer.cs">
+      <DependentUpon>UserControl_NK1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\UserControl_NK2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\UserControl_NK2.Designer.cs">
+      <DependentUpon>UserControl_NK2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\UserControl_JYK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\UserControl_JYK.Designer.cs">
+      <DependentUpon>UserControl_JYK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\UserControl_TJXX.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\UserControl_TJXX.Designer.cs">
+      <DependentUpon>UserControl_TJXX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\UserControl_WK1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\UserControl_WK1.Designer.cs">
+      <DependentUpon>UserControl_WK1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\UserControl_WK2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\UserControl_WK2.Designer.cs">
+      <DependentUpon>UserControl_WK2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\UserControl_KQK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\UserControl_KQK.Designer.cs">
+      <DependentUpon>UserControl_KQK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\UserControl_XXXX.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\UserControl_XXXX.Designer.cs">
+      <DependentUpon>UserControl_XXXX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\UserControl_YK1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\UserControl_YK1.Designer.cs">
+      <DependentUpon>UserControl_YK1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\UserControl_YK2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\UserControl_YK2.Designer.cs">
+      <DependentUpon>UserControl_YK2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_KQK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_KQK.Designer.cs">
+      <DependentUpon>Frm_KQK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_NK1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_NK1.Designer.cs">
+      <DependentUpon>Frm_NK1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_NK2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_NK2.Designer.cs">
+      <DependentUpon>Frm_NK2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_JYK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_JYK.Designer.cs">
+      <DependentUpon>Frm_JYK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_WK1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_WK1.Designer.cs">
+      <DependentUpon>Frm_WK1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_WK2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_WK2.Designer.cs">
+      <DependentUpon>Frm_WK2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_XXXX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_XXXX.Designer.cs">
+      <DependentUpon>Frm_XXXX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_YK1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_YK1.Designer.cs">
+      <DependentUpon>Frm_YK1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_YK2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_YK2.Designer.cs">
+      <DependentUpon>Frm_YK2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login\Frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login\Frm_login.Designer.cs">
+      <DependentUpon>Frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Base\UserControlInfor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\UserControlInfor.Designer.cs">
+      <DependentUpon>UserControlInfor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Base\ComBox.resx">
+      <DependentUpon>ComBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\Frm_Base.resx">
+      <DependentUpon>Frm_Base.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\Control.resx">
+      <DependentUpon>Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\PagerControl.resx">
+      <DependentUpon>PagerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\UserControl_NK1.resx">
+      <DependentUpon>UserControl_NK1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\UserControl_NK2.resx">
+      <DependentUpon>UserControl_NK2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\UserControl_JYK.resx">
+      <DependentUpon>UserControl_JYK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\UserControl_TJXX.resx">
+      <DependentUpon>UserControl_TJXX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\UserControl_WK1.resx">
+      <DependentUpon>UserControl_WK1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\UserControl_WK2.resx">
+      <DependentUpon>UserControl_WK2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\UserControl_KQK.resx">
+      <DependentUpon>UserControl_KQK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\UserControl_XXXX.resx">
+      <DependentUpon>UserControl_XXXX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\UserControl_YK1.resx">
+      <DependentUpon>UserControl_YK1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\UserControl_YK2.resx">
+      <DependentUpon>UserControl_YK2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_KQK.resx">
+      <DependentUpon>Frm_KQK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_NK1.resx">
+      <DependentUpon>Frm_NK1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_NK2.resx">
+      <DependentUpon>Frm_NK2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_JYK.resx">
+      <DependentUpon>Frm_JYK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_WK1.resx">
+      <DependentUpon>Frm_WK1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_WK2.resx">
+      <DependentUpon>Frm_WK2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_XXXX.resx">
+      <DependentUpon>Frm_XXXX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_YK1.resx">
+      <DependentUpon>Frm_YK1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_YK2.resx">
+      <DependentUpon>Frm_YK2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login\Frm_login.resx">
+      <DependentUpon>Frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TJXX.resx">
+      <DependentUpon>TJXX.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Base\UserControlInfor.resx">
+      <DependentUpon>UserControlInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TJXX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TJXX.Designer.cs">
+      <DependentUpon>TJXX.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Config\log4net.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="HRWJ.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\tjbj.jpg" />
+    <Content Include="Resources\bitbug_favicon.ico" />
+    <Content Include="XML\KQK.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataSet\Com.cn.HRWJDataSet.csproj">
+      <Project>{580373d7-084d-4e66-bb8f-0176abe027d5}</Project>
+      <Name>Com.cn.HRWJDataSet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DB\Com.cn.DB.csproj">
+      <Project>{6998939f-e7a3-4198-a886-ca6024d88e8d}</Project>
+      <Name>Com.cn.DB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FW\Com.cn.Log\Com.cn.Log.csproj">
+      <Project>{e3427c0d-a3fb-4ac9-95e3-939f89300d4a}</Project>
+      <Name>Com.cn.Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FW\FW.Config\FW.Config.csproj">
+      <Project>{878cedda-058c-4f85-adbb-cf5904c6ab4f}</Project>
+      <Name>FW.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SncHRWJData\Com.cn.SncData.csproj">
+      <Project>{75ee45e7-4382-4093-ad9b-3122ace2dc96}</Project>
+      <Name>Com.cn.SncData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

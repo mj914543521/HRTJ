@@ -1,0 +1,9 @@
+J:\怀柔教育\HRTJ\DataSet\bin\Debug\HRWJDataSet.dll.config
+J:\怀柔教育\HRTJ\DataSet\bin\Debug\HRWJDataSet.dll
+J:\怀柔教育\HRTJ\DataSet\bin\Debug\HRWJDataSet.pdb
+J:\怀柔教育\HRTJ\DataSet\obj\Debug\HRWJDataSet.dll
+J:\怀柔教育\HRTJ\DataSet\obj\Debug\HRWJDataSet.pdb
+J:\怀柔教育\HRTJ\pubRef\HRWJDataSet.dll.config
+J:\怀柔教育\HRTJ\pubRef\HRWJDataSet.dll
+J:\怀柔教育\HRTJ\pubRef\HRWJDataSet.pdb
+J:\怀柔教育\HRTJ\DataSet\obj\Debug\HRWJDataSet.csprojResolveAssemblyReference.cache

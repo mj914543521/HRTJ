@@ -1,0 +1,9 @@
+G:\HRTJ\HRTJ\FW\Com.cn.Log\bin\Debug\Config\Sample_log4net.xml
+G:\HRTJ\HRTJ\FW\Com.cn.Log\bin\Debug\log4net.dll
+G:\HRTJ\HRTJ\FW\Com.cn.Log\bin\Debug\FW.Log.dll
+G:\HRTJ\HRTJ\FW\Com.cn.Log\bin\Debug\FW.Log.pdb
+G:\HRTJ\HRTJ\FW\Com.cn.Log\bin\Debug\FW.Config.dll
+G:\HRTJ\HRTJ\FW\Com.cn.Log\bin\Debug\FW.Config.pdb
+G:\HRTJ\HRTJ\FW\Com.cn.Log\obj\Debug\FW.Log.csprojResolveAssemblyReference.cache
+G:\HRTJ\HRTJ\FW\Com.cn.Log\obj\Debug\FW.Log.dll
+G:\HRTJ\HRTJ\FW\Com.cn.Log\obj\Debug\FW.Log.pdb

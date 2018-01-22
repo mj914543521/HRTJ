@@ -1,0 +1,5 @@
+J:\怀柔教育\HRTJ\DataSet\bin\Debug\DataSet.dll.config
+J:\怀柔教育\HRTJ\DataSet\bin\Debug\DataSet.dll
+J:\怀柔教育\HRTJ\DataSet\bin\Debug\DataSet.pdb
+J:\怀柔教育\HRTJ\DataSet\obj\Debug\DataSet.dll
+J:\怀柔教育\HRTJ\DataSet\obj\Debug\DataSet.pdb

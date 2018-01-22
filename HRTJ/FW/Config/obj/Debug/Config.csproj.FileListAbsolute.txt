@@ -1,0 +1,5 @@
+J:\School\Source\FW\Config\obj\Debug\ResolveAssemblyReference.cache
+J:\怀柔教育\HRTJ\FW\Config\bin\Debug\Config.dll
+J:\怀柔教育\HRTJ\FW\Config\bin\Debug\Config.pdb
+J:\怀柔教育\HRTJ\FW\Config\obj\Debug\Config.dll
+J:\怀柔教育\HRTJ\FW\Config\obj\Debug\Config.pdb

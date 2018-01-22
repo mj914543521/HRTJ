@@ -1,0 +1,9 @@
+J:\怀柔教育\HRTJ\SncHRWJData\bin\Debug\SncHRWJData.dll
+J:\怀柔教育\HRTJ\SncHRWJData\bin\Debug\SncHRWJData.pdb
+J:\怀柔教育\HRTJ\SncHRWJData\obj\Debug\SncHRWJData.csprojResolveAssemblyReference.cache
+J:\怀柔教育\HRTJ\SncHRWJData\obj\Debug\SncHRWJData.dll
+J:\怀柔教育\HRTJ\SncHRWJData\obj\Debug\SncHRWJData.pdb
+J:\怀柔教育\HRTJ\SncHRWJData\bin\Debug\SncHRWJData.dll.config
+J:\怀柔教育\HRTJ\pubRef\SncHRWJData.dll.config
+J:\怀柔教育\HRTJ\pubRef\SncHRWJData.dll
+J:\怀柔教育\HRTJ\pubRef\SncHRWJData.pdb

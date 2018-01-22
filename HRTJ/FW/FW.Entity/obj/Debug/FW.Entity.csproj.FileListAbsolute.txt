@@ -1,0 +1,5 @@
+G:\Sourse\FW.Entity\bin\Debug\FW.EntityObj.dll
+G:\Sourse\FW.Entity\bin\Debug\FW.EntityObj.pdb
+G:\Sourse\FW.Entity\obj\Debug\FW.EntityObj.dll
+G:\Sourse\FW.Entity\obj\Debug\FW.EntityObj.pdb
+G:\Sourse\FW.Entity\obj\Debug\FW.Entity.csprojResolveAssemblyReference.cache
