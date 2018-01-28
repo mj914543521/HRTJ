@@ -8,9 +8,8 @@ using System.Windows.Forms;
 
 namespace HRTJ.Base
 {
-    public partial class ComBox : ComboBox
+    public partial class ComBox : RefComboBox
     {
-        
         public override string Text
         {
             get

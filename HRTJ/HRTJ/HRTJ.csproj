@@ -123,6 +123,10 @@
     <Compile Include="Base\ComBox.Designer.cs">
       <DependentUpon>ComBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Base\Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\Control.Designer.cs" />
     <Compile Include="Base\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,17 +139,17 @@
     <Compile Include="Base\Frm_Base.Designer.cs">
       <DependentUpon>Frm_Base.cs</DependentUpon>
     </Compile>
-    <Compile Include="Base\Control.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Base\Control.Designer.cs">
-      <DependentUpon>Control.cs</DependentUpon>
-    </Compile>
     <Compile Include="Base\PagerControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Base\PagerControl.Designer.cs">
       <DependentUpon>PagerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\RefComboBox\RefComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Base\RefComboBox\RefComboBox.Designer.cs">
+      <DependentUpon>RefComboBox.cs</DependentUpon>
     </Compile>
     <Compile Include="Base\UserControl_NK1.cs">
       <SubType>UserControl</SubType>
@@ -278,14 +282,12 @@
     <EmbeddedResource Include="Base\ComBox.resx">
       <DependentUpon>ComBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Base\Control.resx" />
     <EmbeddedResource Include="Base\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Base\Frm_Base.resx">
       <DependentUpon>Frm_Base.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Base\Control.resx">
-      <DependentUpon>Control.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Base\PagerControl.resx">
       <DependentUpon>PagerControl.cs</DependentUpon>
@@ -429,6 +431,9 @@
     </Content>
     <None Include="Resources\tjbj.jpg" />
     <Content Include="Resources\bitbug_favicon.ico" />
+    <Content Include="XML\DropDownList.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="XML\KQK.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

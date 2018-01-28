@@ -1,6 +1,0 @@
-J:\怀柔教育\HRTJ\DB\bin\Debug\DB.dll.config
-J:\怀柔教育\HRTJ\DB\bin\Debug\DB.dll
-J:\怀柔教育\HRTJ\DB\bin\Debug\DB.pdb
-J:\怀柔教育\HRTJ\DB\obj\Debug\DB.dll
-J:\怀柔教育\HRTJ\DB\obj\Debug\DB.pdb
-J:\怀柔教育\HRTJ\DB\obj\Debug\DB.csprojResolveAssemblyReference.cache
